@@ -19,9 +19,7 @@
 <button type="button" onclick="window.location.href='employee.php'">Continue as Employee</button>
 </div>
 <div class="btn2">
-<button type="button" onclick="window.location.href='customer.php'">Continue as Customer</button>
-	</div>
-<div class="text"><hr>Welcome in HandtoHand<hr></div>
+
 
 </div>
 	

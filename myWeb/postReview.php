@@ -1,8 +1,8 @@
 <?php require_once('include/connection.php');
 
 session_start();
-$employee_name=$_SESSION["employee"];
-$customer_name=$_SESSION["customer"];
+$employee_name=$_SESSION["by"];
+$customer_name=$_SESSION["tor"];
 
 
 //$customer_name=$_GET['customer_name'];
