@@ -31,7 +31,7 @@
   text-rendering: optimizeLegibility;
 }
 html,body{
-  margin:0;
+  margin:10;
   padding:0;
   width:100%;
 
@@ -102,7 +102,7 @@ h3{
 
 }
 .text1{
-  margin-left: 32%;
+  margin-left: 72%;
   margin-top:0%;
 
 }
@@ -232,9 +232,9 @@ fieldset {
 }
 
 ::-moz-placeholder {
-  color: #888;
+  color: #889;
 }
 
 :-ms-input-placeholder {
-  color: #888;
+  color: #845;
 }
