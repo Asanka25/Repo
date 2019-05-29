@@ -1,7 +1,7 @@
 
 html, body{
-  margin: 0;
-  padding: 0;
+  margin: 10 20 30;
+  padding: 5%;
 }
 
 body{
@@ -38,7 +38,7 @@ body{
   }
   
   .header a:hover {
-    background-color: #ddd;
+    background-color: #d8d;
     color: black;
   }
   
@@ -67,14 +67,14 @@ body{
   
 .searchContainer {
   float: right;
-  margin-top: 13px;
+  margin-top: 19px;
   position: fixed;
   margin-left: 1070px;
 }
   
 .searchContainer input[type=text] {
   padding: 6px;
-  margin-top: 8px;
+  margin-top: 7px;
   font-size: 17px;
   border: none;
   width: 200px;
@@ -86,7 +86,7 @@ body{
   float: right;
   margin-top: 8px;
   padding: 2px;
-  margin-right: 16px;
+  margin-right: 23px;
   background: #ddd;
   border: none;
   cursor: pointer;
@@ -133,8 +133,8 @@ body{
 .container{
     padding: 20px;
     width: 700px;
-    border: 2px solid rgb(162, 36, 167);
-    background-color: rgba(245, 245, 245, 2.286);
+    border: 2px solid rgb(162, 36, 117);
+    background-color: rgba(245, 247, 245, 2.286);
     margin: 50px auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     opacity: 0.9;
