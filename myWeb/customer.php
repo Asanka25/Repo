@@ -20,7 +20,7 @@
         <div class="login-form">
           <form class="sign-in-htm" action="mysql/login.php" method="POST">
             <div class="group">
-              <label for="user" class="label">Username or Email</label>
+              <label for="user" class="labeeel">Username or Email</label>
               <input id="username" name="username" type="text" class="input" required>
             </div>
             <div class="group">
