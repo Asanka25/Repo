@@ -20,18 +20,18 @@ body{
 }
     .login-wrap{
       position: absolute;
-      top: 50%;
-      left: 50%;
+     
+      left: 55px;
       transform: translate(-50%, -50%);
       width: 400px;
       height: 600px;
       background: #111845a6 opacity;
       box-sizing: border-box;
       overflow: hidden;
-      box-shadow: 0 20px 50px black;
+      box-shadow: 0 30px 50px black;
       border: 1px solid white;
       color: white;
-      padding: 0px;
+      padding: 10px;
     }
     .login-wrap:before{
   content: '';
