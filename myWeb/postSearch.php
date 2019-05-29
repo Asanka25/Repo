@@ -24,14 +24,8 @@ $profileName =  $row2["name"];
 
 
 $sql = "SELECT id, name, email, mnum, Job, Pay, location, details FROM post 
-        where name like '%$searchData%' or 
-        email like '%$searchData%' or
-        mnum like '%$searchData%' or
-        Job like '%$searchData%' or
-        pay like '%$searchData%' or
-        location like '%$searchData%' or
-        details like '%$searchData%'";
-$result = $conn->query($sql);
+        where name 
+       
 
 $conn->close();
 ?>
