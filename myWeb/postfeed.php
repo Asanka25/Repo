@@ -2,9 +2,7 @@
  require_once('include/connection.php');
  session_start();
 
-
 $name =  $_SESSION['customer'];
-//echo $name;
 
 $sql2 = "select * from usertable where name = '$name' or email = '$name' ";
 
@@ -12,8 +10,6 @@ $result2 = $con->query($sql2);
 
 $row2 = $result2->fetch_assoc() ;
 $profileName =  $row2["name"];
-//echo $profileName;
-//$conn->close();
 ?>
 
 
@@ -60,9 +56,6 @@ $profileName =  $row2["name"];
             <?php
 
             require_once('include/connection.php');
-
-
-
             
             $sql = "SELECT  name, email, mobile, job, pay, location, details,date FROM post";
             $result_set = mysqli_query($con, $sql);
@@ -83,8 +76,7 @@ $profileName =  $row2["name"];
                         ."Location : ".$row["location"]."<br>"
                         ."Job Details : ".$row["details"]."<br>"
                         ."Posted date : ".$row["date"]."<br>"
-                        
-                       // ."<button  class='btnJobApply' onclick='func();'>Apply For The Job</button>". "<br><br> <hr>";
+                       
                         . "<br><br> <hr>";
                     }
                 } else {
