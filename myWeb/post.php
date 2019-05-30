@@ -11,7 +11,7 @@
     <a href="http://localhost/myWeb/postfeed.php">PostFeed</a>
     <a class="#contact" href="http://localhost/myWeb/ContactFrom_v15/index.html">Contact</a>
     <a href="#about">About</a>
-    <a onclick="confirmLogout();"> <img src="logoutIcon.png" title="logout" width="30px" height="30px" alt=""></a>
+    <a onclick="confirmLogout();"> <img src="logoutIcon.png" title="logout" width="40px" height="30px" alt=""></a>
 </div>
 </div>
 
