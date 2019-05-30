@@ -21,9 +21,6 @@ $profileName =  $row2["name"];
 //$conn->close();
 ?>
 
-
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -65,9 +62,6 @@ $profileName =  $row2["name"];
             <?php
 
             require_once('include/connection.php');
-
-
-
 
             $sql = "SELECT  name, email, mobile, job, pay, location, details,date FROM post";
             $result_set = mysqli_query($con, $sql);
